@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/SpongeUK/adapt-bodyStyles.git"
+    "url": "git://github.com/SpongeUK/adapt-courseReset.git"
   },
   "author": "Chris Jones <chris.jones@spongeuk.com>",
   "license": "GPL v3",
   "bugs": {
-    "url": "https://github.com/SpongeUK/adapt-bodyStyles/issues"
+    "url": "https://github.com/SpongeUK/adapt-courseReset/issues"
   },
   "devDependencies": {
   }
