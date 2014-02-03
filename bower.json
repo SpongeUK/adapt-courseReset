@@ -1,0 +1,16 @@
+{
+  "name": "adapt-courseReset",
+  "version": "0.0.1",
+  "homepage": "https://github.com/SpongeUK/adapt-bodyStyles",
+  "repository": "git://github.com/SpongeUK/adapt-bodyStyles.git",
+  "authors": [
+    "Chris Jones <chris.jones@spongeuk.com>"
+  ],
+  "description": "An extension that allows you to reset an entire course.",
+  "main": "/js/adapt-courseReset.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3"
+}
