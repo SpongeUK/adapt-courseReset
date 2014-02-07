@@ -23,3 +23,22 @@ adapt-courseReset also supports auto-hooking into the assessment plugin. To turn
 ```
 
 Doing this will cause the plugin to subscribe to ```assessment:complete``` events and reset the course when the learner fails.
+
+The default values of the compoents that are reset can be specified in the ```defaults``` property.
+
+```js
+{
+    "_courseReset": {
+        "defaults": {
+            'narrative': {
+                '_stage': 0
+            },
+            'accordion': {
+                'items': {
+                    '_isVisited':false
+                }
+            }
+        }
+    }
+}
+```
