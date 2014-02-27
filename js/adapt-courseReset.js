@@ -19,7 +19,7 @@ define(["coreJS/adapt", "jquery"], function (Adapt, $) {
     
     Adapt.on('assessment:complete', function (event) {
         if(Adapt.config.get('_courseReset') && Adapt.config.get('_courseReset').onFail && !event.isPass) {
-            Adapt.trigger('course:reset');    
+            Adapt.trigger('course:reset');
         }
     });
 

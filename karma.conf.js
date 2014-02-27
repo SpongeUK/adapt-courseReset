@@ -5,15 +5,18 @@ module.exports = function(config) {
     basePath: '',
     // List of files or patterns to load in the browser
     files: [
-        { pattern: 'js/**/*.js', included: false },
-        { pattern: 'tests/spec/**/*.js', included: false },
+        { pattern: 'tests/libraries/jquery-min.js', included: true, watched: false },
+        { pattern: 'tests/libraries/underscore-min.js', included: true, watched: false },
+        { pattern: 'tests/libraries/*.js', included: false, watched: false },
+        { pattern: 'js/*.js', included: false },
+        { pattern: 'tests/spec/*.spec.js', included: false },
         'tests/test-main.js'
     ],
     // List of frameworks you want to use: jasmine, mocha, qunit
     frameworks: ['expect', 'mocha', 'requirejs'],
     // Enable or disable watching files and executing the tests
     // whenever one of these files changes.
-    autoWatch: false,
+    autoWatch: true,
     // Chrome (comes installed with Karma)
     // ChromeCanary (comes installed with Karma)
     // PhantomJS (comes installed with Karma)
